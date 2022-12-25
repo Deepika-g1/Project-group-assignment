@@ -2,7 +2,7 @@
 Automated CI/CD Pipeline for Django Application with Jenkins and GitHub Webhooks**
 ![image](https://user-images.githubusercontent.com/51720295/209477573-42bd5305-98ee-4f2e-b395-2ba240fc8d74.png)
 
-**Jenkins CI/CD pipeline with GitHub webhook integration for Deploying Docker application on EC2 instances using the declarative pipeline.**
+****Jenkins CI/CD pipeline with GitHub webhook integration for Deploying Docker application on EC2 instances using the declarative pipeline.****
 
 **Steps:**
 
@@ -21,6 +21,7 @@ Click on Launch Instance.
 ![image](https://user-images.githubusercontent.com/51720295/209477586-e30d974c-2ff1-42bc-b3a4-c5b45b967dba.png)
 
 **3. **Go to the download folder, where the .pem file is placed and open the terminal in the same location, and paste the SSH.
+
 **4. **No we will Install Docker. By running this Command:
 “**Sudo apt-install docker.io**”
 
@@ -104,6 +105,7 @@ Now, our goal is,
 ·Whenever the developer commits their code in GitHub, after every commit, it should reflect in the live web app.
 ·For that, we will use “**GitScm polling**”.
 ·Every time, a developer made a commit, a trigger will run automatically, which will rebuild the image and run a container on your behalf as a part of automation that will run the pipeline automatically.
+
 **26. **Now, configure the project again, and add
 • **Build Trigger: GitHub hook trigger for GitScm polling**.
 • Description: **GitHub webhook integration**.
@@ -116,6 +118,7 @@ path,
 **28. **Now, we need to go to GitHub and create a **Webhook**.
 **GitHub > Your Project Repository> Settings > Webhooks
 **
+
 **29. **Add the following details,
 • Payload URL: **http://<public_ip_of_ec2>:8080/github-webhook/**
 • Content Type: **application/json**
