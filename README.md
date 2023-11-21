@@ -1,4 +1,4 @@
-**DevOps Beginner Project
+**
 Automated CI/CD Pipeline for Django Application with Jenkins and GitHub Webhooks**
 ![image](https://user-images.githubusercontent.com/51720295/209477573-42bd5305-98ee-4f2e-b395-2ba240fc8d74.png)
 
