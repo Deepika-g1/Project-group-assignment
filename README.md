@@ -131,8 +131,3 @@ path,
 **30. **Do some changes in the code and push it to GitHub, this will **automatically run a pipeline and the new code will be Live**.
 After Webhook Deploying.
 ![image](https://user-images.githubusercontent.com/51720295/209477712-2a45502a-4f10-47fe-91ca-d64d09cb2b03.png)
-
-**Resources:
-**Project GitHub Link:
-**https://github.com/mohasinmudassar/django-application.git
-https://medium.com/@mohasinmudassar16/devops-beginner-project-3e1806dc26b2**
